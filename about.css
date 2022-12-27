@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header1{
+   color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+    background-image:  url("pic/web3.jpg");
+}
+
+.header{
+    padding: 60px 50px;
+    text-align: center;
+}

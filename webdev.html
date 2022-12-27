@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="Stylesheet" href="webdev.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header of website-->
+    <section class="header" id="home">
+        <nav id="button">
+            <a href="#"><h1><i><B>W</B>eb<B>D</B>eveloper</i></h1></a>
+            <div class="nav-list" id="nav">
+                <i class="fa fa-times" onclick="hidemenu()" ></i>
+               
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="#SERVICES" >SERVICES</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+        </nav> 
+        <div class="text">
+            <h1>Hi, My Name is Saurav Tiwari</h1>
+                <P>Thank you for your time</P>
+           <a href="sample projects.html" class="btnoftext">Some of my web devlopment projects</a>
+        </div>
+    </section>
+
+    <!---Service-->
+<section  id="SERVICES">
+    <h1>SERVICES WE OFFER</h1>
+    <p>ARE LISTED BELOW</p>
+    <div class="row">
+        <div class="column">
+            <h1>Static website design</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim, iusto saepe labore, inventore illum repellendus asperiores neque debitis accusamus voluptas est aut cumque tempora rerum optio! Ullam, asperiores totam?</p>
+        </div>
+        <div class="column">
+            <h1>CMS or dynamic website</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim, iusto saepe labore, inventore illum repellendus asperiores neque debitis accusamus voluptas est aut cumque tempora rerum optio! Ullam, asperiores totam?</p>
+        </div>
+        <div class="column">
+            <h1>e-Commerce website</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim, iusto saepe labore, inventore illum repellendus asperiores neque debitis accusamus voluptas est aut cumque tempora rerum optio! Ullam, asperiores totam?</p>
+        </div> 
+    </div>
+    
+   
+</section>
+<!--footer-->
+
+  <section class="footer">
+    <h4>Lorem</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Commodi atque repudiandae at facere dolorum, sequi quidem voluptatem dolor quos veniam<br> inventore nostrum fugiat cum aperiam eaque quisquam consectetur voluptas quibusdam.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-snapchat"></i>
+    </div>
+   
+</section>
+
+
+
+
+    <!--java script-->
+    <script>
+        var navlist  = document.getElementById("nav");
+        function showmenu(){
+            nav.style.right ="0";
+        }
+        function hidemenu(){
+            nav.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
